@@ -1,0 +1,5 @@
+Mostly a modification to the openCV demo already in the 0.6.1 FAT library, but has ofxHaarFinder addon as a requirement and makes use of it to replace faces with Frank the rabbit from the Donny Darko movie.
+
+BUGS:
+* sloooww
+* constant displaying of Frank overlay gets blurry over time, esp as more resizing is done to it. So it is reverted back every some frames to the original overlay image. Very lame...but any tips on improving this?
