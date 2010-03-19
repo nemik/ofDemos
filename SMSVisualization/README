@@ -1,0 +1,5 @@
+This is an original creation, not really based on many demos but this tutorial played a HUGE role: http://www.quietless.com/kitchen/getting-started-with-openframeworks/
+
+This program exposes an HTTP server on port 11999 that listens for POST requests coming to the '/sms' path and containing a POST variable called 'text' which contains some string in any language (that can be rendered by the chosen font). So the point is that a very low-powered SMS gateway could push messages from it to these visualization parts that can display them.
+
+It is just a basic particle emitter whose particles alternate colours (fading between blue and green) and when text comes it, it gets drawn in a much larger and slower-moving bubble for more attention.
